@@ -86,23 +86,6 @@ public:
 
 int main(){
 
-    MyVector<int> test;
-
-    test.push_back(31);
-    test.push_back(32);
-    test.push_back(33);
-    test.push_back(34);
-
-    for(int i = 0; i < test.getSize(); i++){
-        std::cout << test[i] << std::endl;
-    }
-
-    test.pop_back();
-    test.pop_back();
-
-    for(int i = 0; i < test.getSize(); i++){
-        std::cout << test[i] << std::endl;
-    }
-
     return 0;
+
 }
